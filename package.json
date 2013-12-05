@@ -1,0 +1,25 @@
+{
+    "name": "owlqn",
+    "description": "Orthant-Wise Limited-memory Quasi-Newton",
+    "version": "0.0.1",
+    "keywords": ["owlqn", "otrhant", "optimization", "limited", "memory"],
+    "dependencies": {
+        "numeric": ">= 1.2.6",
+        "debug": ">= 0.7.3"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "jsdox": "*"
+    },
+    "scripts": {
+        "test": "mocha tests/*.js",
+        "doc": "jsdox lib/ --output doc/api/"
+    },
+    "author": "Elmar Langholz",
+    "main": "index",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "private": true
+}
