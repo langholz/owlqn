@@ -17,9 +17,12 @@
         "doc": "jsdox lib/ --output doc/api/"
     },
     "author": "Elmar Langholz",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/langholz/owlqn.git"
+    },
     "main": "index",
     "engines": {
         "node": ">= 0.8.0"
-    },
-    "private": true
+    }
 }
