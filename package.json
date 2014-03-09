@@ -1,7 +1,7 @@
 {
     "name": "owlqn",
     "description": "Orthant-Wise Limited-memory Quasi-Newton",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": ["owlqn", "otrhant", "optimization", "limited", "memory"],
     "dependencies": {
         "numeric": ">= 1.2.6",
